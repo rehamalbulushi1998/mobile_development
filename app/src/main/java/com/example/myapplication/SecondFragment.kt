@@ -33,16 +33,7 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.downloadbutton.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
 
-        }
-        binding.heartbutton.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-        }
-        binding.bookmarkbutton.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-        }
     }
 
     override fun onDestroyView() {

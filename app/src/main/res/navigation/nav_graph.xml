@@ -13,7 +13,7 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/mainactivity" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -25,4 +25,11 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+
+    <activity
+        android:id="@+id/mainactivity"
+        android:name="com.example.myapplication.MainActivity"
+        android:label="MainActivity2"
+        tools:layout="@layout/activity_main">
+    </activity>
 </navigation>
